@@ -482,3 +482,7 @@
 //     </div>
 //   );
 // }
+
+export default function BestiePage() {
+  return null;
+}

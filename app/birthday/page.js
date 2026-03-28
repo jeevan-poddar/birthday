@@ -409,3 +409,7 @@
 //     </div>
 //   );
 // }
+
+export default function BirthdayPage() {
+  return null;
+}
