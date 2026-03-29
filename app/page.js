@@ -32,7 +32,7 @@ export default function Home() {
   useEffect(() => {
     // Parse the date components from "DD/MM/YYYY" format
     const [day, month, year] = IsDate.split("/");
-    const targetDate = new Date(`${year}-${month}-${day}T01:37:00`).getTime();
+    const targetDate = new Date(`${year}-${month}-${day}T00:00:00`).getTime();
     let interval;
 
     const updateTimer = () => {
